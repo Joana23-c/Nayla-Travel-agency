@@ -1,5 +1,6 @@
 // import { useState } from 'react'
-import Starter from "./start.tsx";
+import { Routes, Route } from 'react-router-dom';
+import Homepage from "./start.tsx";
 import './App.css'
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
 
   return (
 <>
-<Starter />
+ <Routes>
+  <Route path="/" element={<Homepage />} />
+ </Routes>
 </>
   )
 }
