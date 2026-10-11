@@ -1,8 +1,11 @@
 import "./header.scss";
 // import { Link } from 'react-router-dom';
 // import logo from '/logo.jpg';
+type Props = {
+  openMenu: () => void;
+};
+export default function Header({ openMenu }: Props) {
 
-export default function Header() {
   return (
     <>
       <nav>
@@ -43,13 +46,14 @@ export default function Header() {
               </li>
               <li>
                 <a href="#">
-                  <img src="/simple-cart.svg" />
+                  {/* <img src="/simple-cart.svg" /> */}
+                    <i className="fa-brands fa-opencart"></i>
                 </a>
               </li>
             </ul>
           </div>
 
-          <div className="togglebtn">
+          <div className="togglebtn" onClick={openMenu}>
             <img src="/toggle-column-svgrepo-com.png" />
           </div>
         </div>

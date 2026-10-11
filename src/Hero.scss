@@ -1,13 +1,15 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .hero {
   // background-image: url("castle.jpg");
     // background-image: url("402d87e6-8154-4dce-a348-40b9111153ed.png");
-    // background-image: url("d1321398-f6f0-4952-b064-53ad89099e94.png");
-    background-image: url("b32cb408-644f-49c9-8562-cbb424226487.png");
+    background-image: url("39855e18-2801-497a-b9a0-eb5e2e41204a.png");
+    // background-image: url("b32cb408-644f-49c9-8562-cbb424226487.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -16,7 +18,7 @@
 }
 .hero-overlay {
   // background-color: rgba(0, 0, 0, 0.45);
-  // background-color: rgba(0, 0, 0, 0.396);
+  background-color: rgba(0, 0, 0, 0.396);
   //   background-image:
   //  linear-gradient(
   //     90deg,

@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Corben:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
