@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer">
           <div className="footer__aboutus">
             <a href="#" className="footer__logo">
-              <img src="/logo.jpg" alt="Logo" />
+              <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="Logo" />
             </a>
             <p className="footer__title">About Us</p>
             <p className="cont">
