@@ -13,7 +13,7 @@ export default function MobileMenu({ isOpen, closeMenu }: Props) {
 
           <div className="mobile-menu__header">
             <a href="#" className="mobile-menu__logo">
-              <img src="/logo.jpg" alt="Logo" />
+              <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="Logo" />
             </a>
             <a href="#" className="mobile-menu__close"  onClick={closeMenu}>
               <i className="fa-solid fa-x"></i>
