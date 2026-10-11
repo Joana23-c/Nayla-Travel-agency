@@ -12,7 +12,7 @@ export default function Header({ openMenu }: Props) {
         <div className="navBar">
           <div className="navBar__logo">
             <a href="#">
-              <img src="/logo.jpg" alt="Logo" />
+              <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="Logo" />
             </a>
           </div>
 
@@ -54,7 +54,7 @@ export default function Header({ openMenu }: Props) {
           </div>
 
           <div className="togglebtn" onClick={openMenu}>
-            <img src="/toggle-column-svgrepo-com.png" />
+            <img src={`${import.meta.env.BASE_URL}toggle-column-svgrepo-com.png`} />
           </div>
         </div>
       </nav>
